@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="navbar navbar-expand-lg stick-top pt-4">
+    <header class="navbar navbar-expand-lg sticky-top pt-4">
         <div class="container">
             <h1 class="navbar-branch m-0 section-title">Cidades</h1>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
@@ -21,8 +21,8 @@
             <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold"><a href="#porque" class="nav-link"><i class="bi bi-airplane me-1"></i>Por que viajar?</a></li>
-                    <li class="nav-item fw-bold"><a href="#eventos" class="nav-link"><i class="bi bi-activity me-1"></i>Eventos variados</a></li>
-                    <li class="nav-item fw-bold"><a href="#historia" class="nav-link"><i class="bi bi-archive me-1"></i>Historia de algumas cidades</a></li>
+                    <li class="nav-item fw-bold"><a href="#eventos" class="nav-link"><i class="bi bi-activity me-1"></i>Atrações turísticas</a></li>
+                    <li class="nav-item fw-bold"><a href="#historia" class="nav-link"><i class="bi bi-archive me-1"></i>História de algumas cidades</a></li>
                     <li class="nav-item fw-bold"><a href="#mensagem" class="nav-link"><i class="bi bi-backpack me-1"></i>E você, gosta de viajar?</a></li>
                 </ul>
             </nav>
@@ -32,9 +32,9 @@
         <section id="porque">
             <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" id="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="3000"><img src="https://cdn.pixabay.com/photo/2017/03/29/15/18/tianjin-2185510_1280.jpg" class="d-block w-100 carousel-imagem"></div>
-                    <div class="carousel-item active" data-bs-interval="3000"><img src="https://cdn.pixabay.com/photo/2017/01/28/02/24/japan-2014618_1280.jpg" class="d-block w-100 carousel-imagem"></div>
-                    <div class="carousel-item active" data-bs-interval="3000"><img src="https://cdn.pixabay.com/photo/2016/11/23/15/32/pedestrians-1853552_1280.jpg" class="d-block w-100 carousel-imagem"></div>
+                    <div class="carousel-item active" data-bs-interval="3000"><img src="https://cdn.pixabay.com/photo/2017/03/29/15/18/tianjin-2185510_1280.jpg"></div>
+                    <div class="carousel-item" data-bs-interval="3000"><img src="https://cdn.pixabay.com/photo/2017/01/28/02/24/japan-2014618_1280.jpg"></div>
+                    <div class="carousel-item" data-bs-interval="3000"><img src="https://cdn.pixabay.com/photo/2016/11/23/15/32/pedestrians-1853552_1280.jpg"></div>
                 </div>
                 <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
@@ -67,7 +67,120 @@
                 </div>
             </div>
         </section>
-        a
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Muitas <span class="text-colored">atrações turisticas!</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Eiffel_Tower_Marsfeld_Paris.jpg/640px-Eiffel_Tower_Marsfeld_Paris.jpg" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4 text-center">Torre Eiffel</h3>
+                    <p>A Torre Eiffel é uma torre treliçada de ferro forjado no Champ de Mars, em Paris, França. Tem o nome do engenheiro Gustave Eiffel, cuja empresa projetou e construiu a torre de 1887 a 1889.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/New_York_New_Amsterdam_Theatre_2003.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 text-center">Broadway</h3>
+                        <p>Teatro da Broadway, também conhecido simplesmente como Broadway, refere-se às apresentações teatrais apresentadas nos 41 teatros profissionais, cada um com 500 ou mais lugares, localizados no Theatre District e no Lincoln Center ao longo da Broadway, em Midtown Manhattan, na cidade de Nova York</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://lh3.googleusercontent.com/p/AF1QipNut6EB3aSHgiiXH-NHSnFfCa3fL3ZVEvtcTOpj=s680-w680-h510" class="d-block w-100 rounded mb-2">
+                            <h3 class="section-title text-colored fs-4 text-center">Estatua da liberdade</h3>
+                            <p>Estátua da Liberdade, cujo nome oficial é A Liberdade Iluminando o Mundo, é uma escultura neoclássica colossal localizada na ilha da Liberdade no porto de Nova Iorque, nos Estados Unidos.</p>
+                            </div>
+                </div>
+            </div>
+        </section>
+        <section id="historia" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Historia de algumas<span class="text-colored"> Cidades</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-hist">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#newyork" class="fw-bold text-start nav-link text-colored active">New york</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#paris" class="fw-bold text-start nav-link text-colored">Paris</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#losangeles" class="fw-bold text-start nav-link text-colored">Los angeles</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="newyork">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <img src="https://cdn.pixabay.com/photo/2017/02/11/11/27/nyc-2057534_960_720.jpg" alt="Nova york" class="d-block w-100">
+                                        <h3 class="text-colored fw-bold mt-2">New york</h3>
+                                        <p>Nova Iorque (também referida como Nova York), oficialmente Cidade de Nova Iorque (em inglês: New York City),[6] é a cidade mais populosa do estado de Nova Iorque e dos Estados Unidos.[5] Sua região metropolitana é uma das áreas metropolitanas mais populosas do mundo[7][8][9] e é também a terceira cidade mais populosa da América, atrás de São Paulo e Cidade do México. A cidade exerce um impacto significativo sobre o comércio, finanças, mídia, arte, moda, pesquisa, tecnologia, educação e entretenimento de todo o planeta</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="paris">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <img src="https://cdn.pixabay.com/photo/2020/07/23/21/34/arc-de-triomphe-5432392_1280.jpg" alt="Paris" class="d-block w-100">
+                                        <h3 class="text-colored fw-bold mt-2">Paris</h3>
+                                        <p>Paris (pronúncia em francês: ​[paʁi] (Sobre este somescutar?·info)) é a capital e a mais populosa cidade da França, com uma população estimada em 2020 de 2 148 271 habitantes em uma área de 105 quilômetros quadrados.[1] Desde o século XVII, Paris é um dos principais centros de finanças, diplomacia, comércio, moda, ciência e artes da Europa. A cidade de Paris é o centro e sede de governo da região administrativa de Ilha de França, que tem uma população estimada em 2020 de 12 278 210 habitantes, ou cerca de 18% da população da França.[1] Em 2017, a região de Paris teve um PIB de 709 bilhões de euros.[2] De acordo com a Pesquisa de Custo de Vida da Economist Intelligence Unit em 2018, Paris era a segunda cidade mais cara do mundo, atrás apenas da Singapura e à frente de Zurique, Hong Kong, Oslo e Genebra.[3]</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="losangeles">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <img src="https://cdn.pixabay.com/photo/2016/06/17/01/52/downtown-la-1462461_1280.jpg" alt="Los angeles" class="d-block w-100">
+                                        <h3 class="text-colored fw-bold mt-2">Los Angeles</h3>
+                                        <p>Los Angeles (AFI: /lɒs ˈændʒəˌləs/ ? (escutar), do espanhol Los Ángeles, literalmente "Os Anjos"), oficialmente Cidade de Los Angeles (City of Los Angeles) e de maneira abreviada L.A. (pronunciado [élei]), é a cidade mais populosa do estado da Califórnia e a segunda cidade mais populosa dos Estados Unidos, depois de Nova Iorque.[3] Com uma população superior a 3,8 milhões de habitantes, segundo o censo de 2020,[3] é a cidade mais populosa do oeste dos Estados Unidos. Além disso, a cidade se estende por 1 302 km² no Sul da Califórnia e faz parte da 16ª maior área metropolitana do mundo. A área metropolitana Los Angeles-Long Beach-Anaheim abriga mais de 13 milhões de habitantes.[3] Los Angeles é também a sede do condado de Los Angeles, o mais populoso e um dos condados mais multiculturais[4] dos Estados Unidos. Os habitantes da cidade são referidos como "Angelinos".</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mensagem" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Sua vez, onde você<span class="text-colored"> deseja ir?</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form >
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional):</label>
+                                <input type="tel" id="telefone" class="form-control" >
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Mensagem:</label>
+                                <textarea id="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5"><a href="#"><i class="bi bi-facebook text-colored"></i></a></li>
+                                <li class="fs-5 ms-1 me-1"><a href="#"><i class="bi bi-instagram text-colored"></i></a></li>
+                                <li class="fs-5"><a href="#"><i class="bi bi-whatsapp text-colored"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 
 

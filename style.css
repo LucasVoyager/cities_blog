@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #851c05;
+}
+
+header .nav .nav-link.active {
+    background-color: #fff;
+    color:  #851c05;
+}
+
+header .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-hist .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffffffe3;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+#porque,
+#historia {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color:  #851c05;
+}
+
+.nav-hist .nav-link.active,
+#mensagem button  {
+    background-color: #851c05;
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media(max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    
+}
