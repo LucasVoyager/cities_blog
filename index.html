@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg stick-top pt-4">
+        <div class="container">
+            <h1 class="navbar-branch m-0 section-title">Cidades</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold"><a href="#porque" class="nav-link"><i class="bi bi-airplane me-1"></i>Por que viajar?</a></li>
+                    <li class="nav-item fw-bold"><a href="#eventos" class="nav-link"><i class="bi bi-activity me-1"></i>Eventos variados</a></li>
+                    <li class="nav-item fw-bold"><a href="#historia" class="nav-link"><i class="bi bi-archive me-1"></i>Historia de algumas cidades</a></li>
+                    <li class="nav-item fw-bold"><a href="#mensagem" class="nav-link"><i class="bi bi-backpack me-1"></i>E você, gosta de viajar?</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="header" data-bs-smooth-scroll="true">
+        <section id="porque">
+            <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000"><img src="https://cdn.pixabay.com/photo/2017/03/29/15/18/tianjin-2185510_1280.jpg" class="d-block w-100 carousel-imagem"></div>
+                    <div class="carousel-item active" data-bs-interval="3000"><img src="https://cdn.pixabay.com/photo/2017/01/28/02/24/japan-2014618_1280.jpg" class="d-block w-100 carousel-imagem"></div>
+                    <div class="carousel-item active" data-bs-interval="3000"><img src="https://cdn.pixabay.com/photo/2016/11/23/15/32/pedestrians-1853552_1280.jpg" class="d-block w-100 carousel-imagem"></div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5"><img src="https://cdn.pixabay.com/photo/2017/06/26/14/28/plane-2443976_1280.jpg" class="d-block w-100 rounded"></div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Por que <span class="text-colored">viajar?</span></h2>
+                            <p>
+                                Viajar é uma experiência multifacetada que oferece uma gama de benefícios, desde crescimento pessoal e aprendizado cultural até aventuras emocionantes. Ao sair da zona de conforto, as pessoas têm a oportunidade de ampliar sua compreensão do mundo, desenvolver habilidades interpessoais, criar memórias duradouras e relaxar em ambientes distintos. Além disso, a exploração de novas culturas e gastronomias enriquece a perspectiva individual, promovendo a tolerância e construindo conexões sociais. Cada viagem é única, proporcionando oportunidades para escapismo, autoconhecimento e uma apreciação mais profunda da diversidade global.
+                            </p>
+                            <ul>
+                                <li>Crescimento pessoal</li>
+                                <li>Cultura e aprendizado</li>
+                                <li>Aventura e novas experiências</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
