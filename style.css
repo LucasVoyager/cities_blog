@@ -11,6 +11,11 @@ header .nav .nav-link.active {
     color:  #851c05;
 }
 
+.carousel-item img {
+    height: 860px;
+    max-width: 100vw;
+}
+
 header .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
